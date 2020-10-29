@@ -30,11 +30,11 @@ function setup() {
   pendulum4 = new Pendulum(520, 450, "#e91e63");
   pendulum5 = new Pendulum(580, 450, "#00b0ff");
 
-  sling1 = new Sling(pendulum1.body, { x: 340, y: 200 });
-  sling2 = new Sling(pendulum2.body, { x: 400, y: 200 });
-  sling3 = new Sling(pendulum3.body, { x: 460, y: 200 });
-  sling4 = new Sling(pendulum4.body, { x: 520, y: 200 });
-  sling5 = new Sling(pendulum5.body, { x: 580, y: 200 });
+  sling1 = new Sling(pendulum1.body, { x: 340, y: 150 });
+  sling2 = new Sling(pendulum2.body, { x: 400, y: 150 });
+  sling3 = new Sling(pendulum3.body, { x: 460, y: 150 });
+  sling4 = new Sling(pendulum4.body, { x: 520, y: 150 });
+  sling5 = new Sling(pendulum5.body, { x: 580, y: 150 });
 }
 
 function draw() {
